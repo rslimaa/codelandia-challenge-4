@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana";
+  color: #1a202c;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid #04c45c;
+  background-color: #04c45c;
+  color: white;
+
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.google-sign-in {
+  background-color: #1a202c;
+}
+
+.container {
+  position: relative;
+  padding: 60px 32px 32px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+
+.sigin-form {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+
+  margin-bottom: 32px;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.input-box {
+  margin-bottom: 10px;
+}
+
+.input-box label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  padding: 20px 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+
+}
+
+.input-box input {
+  width: 100%;
+}
+
+.form-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.form-action {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.need-sign-up {
+  position: absolute;
+  bottom: 32px;
+  width: 270px;
+
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.demonstration {
+  position: relative;
+  display: none;
+  background: #f7fafc;
+}
+
+@media screen and (min-width: 768px) {
+  .demonstration {
+    display: block;
+    width: 50%;
+  }
+}
+
+.app-demo {
+  width: 400px;
+  height: 330px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  margin: auto;
+}
+
+.form-action {
+  position: relative;
+}
+
+.google {
+  width: 20px;
+  position: absolute;
+  top: 75px;
+  left: 50px;
+}
+
+@media screen and (max-width: 400px) {
+  .google {
+    width: 0px;
+  }
+}
